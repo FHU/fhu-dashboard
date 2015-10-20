@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88355CB81BD6CE1E00704999 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88355CB71BD6CE1E00704999 /* Student.swift */; settings = {ASSET_TAGS = (); }; };
+		88355CBA1BD6D73500704999 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88355CB91BD6D73500704999 /* Club.swift */; settings = {ASSET_TAGS = (); }; };
 		88920D6E1BD03EDF00A0BFAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88920D6D1BD03EDE00A0BFAF /* AppDelegate.swift */; };
 		88920D701BD03EDF00A0BFAF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88920D6F1BD03EDF00A0BFAF /* FirstViewController.swift */; };
 		88920D721BD03EDF00A0BFAF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88920D711BD03EDF00A0BFAF /* SecondViewController.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88355CB71BD6CE1E00704999 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		88355CB91BD6D73500704999 /* Club.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
 		88920D6A1BD03EDE00A0BFAF /* FHU_Dashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FHU_Dashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88920D6D1BD03EDE00A0BFAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88920D6F1BD03EDF00A0BFAF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 			children = (
 				88920D6D1BD03EDE00A0BFAF /* AppDelegate.swift */,
 				88920D6F1BD03EDF00A0BFAF /* FirstViewController.swift */,
+				88355CB71BD6CE1E00704999 /* Student.swift */,
+				88355CB91BD6D73500704999 /* Club.swift */,
 				88920D711BD03EDF00A0BFAF /* SecondViewController.swift */,
 				88920D731BD03EDF00A0BFAF /* Main.storyboard */,
 				88920D761BD03EDF00A0BFAF /* Assets.xcassets */,
@@ -203,7 +209,9 @@
 			files = (
 				88920D721BD03EDF00A0BFAF /* SecondViewController.swift in Sources */,
 				88920D6E1BD03EDF00A0BFAF /* AppDelegate.swift in Sources */,
+				88355CBA1BD6D73500704999 /* Club.swift in Sources */,
 				88920D701BD03EDF00A0BFAF /* FirstViewController.swift in Sources */,
+				88355CB81BD6CE1E00704999 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +401,7 @@
 				88920D8B1BD03EDF00A0BFAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88920D8C1BD03EDF00A0BFAF /* Build configuration list for PBXNativeTarget "FHU_DashboardTests" */ = {
 			isa = XCConfigurationList;
@@ -401,6 +410,7 @@
 				88920D8E1BD03EDF00A0BFAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
