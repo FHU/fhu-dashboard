@@ -1,14 +1,14 @@
 //
-//  Club.swift
+//  SportsTeam.swift
 //  FHU_Dashboard
 //
-//  Created by Jesse Lloyd on 10/20/15.
+//  Created by Jesse Lloyd on 10/22/15.
 //  Copyright © 2015 Jesse Lloyd. All rights reserved.
 //
 
 import Foundation
 
-class Club {
+class SportsTeam {
     var name: String
     var rosterCount: Int
     var roster: [Student]

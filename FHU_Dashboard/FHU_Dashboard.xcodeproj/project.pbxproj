@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		88355CB81BD6CE1E00704999 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88355CB71BD6CE1E00704999 /* Student.swift */; settings = {ASSET_TAGS = (); }; };
-		88355CBA1BD6D73500704999 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88355CB91BD6D73500704999 /* Club.swift */; settings = {ASSET_TAGS = (); }; };
+		880C802D1BD8D57300FBCF88 /* SocialClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880C802C1BD8D57300FBCF88 /* SocialClubViewController.swift */; };
+		880C802F1BD8D5CB00FBCF88 /* SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880C802E1BD8D5CB00FBCF88 /* SportsViewController.swift */; };
+		88355CB81BD6CE1E00704999 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88355CB71BD6CE1E00704999 /* Student.swift */; };
+		88355CBA1BD6D73500704999 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88355CB91BD6D73500704999 /* Club.swift */; };
+		883E1ECE1BD9C44C00A3E0DF /* SportsTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883E1ECD1BD9C44C00A3E0DF /* SportsTeam.swift */; };
+		883E1ED01BD9EB9A00A3E0DF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883E1ECF1BD9EB9A00A3E0DF /* LoginViewController.swift */; };
+		883E1ED61BD9F37800A3E0DF /* ClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883E1ED51BD9F37800A3E0DF /* ClubViewController.swift */; };
+		883E1ED81BD9F38500A3E0DF /* ClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883E1ED71BD9F38500A3E0DF /* ClassesViewController.swift */; };
+		883E1EDA1BD9F3E600A3E0DF /* AnnouncementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883E1ED91BD9F3E600A3E0DF /* AnnouncementsViewController.swift */; };
 		88920D6E1BD03EDF00A0BFAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88920D6D1BD03EDE00A0BFAF /* AppDelegate.swift */; };
-		88920D701BD03EDF00A0BFAF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88920D6F1BD03EDF00A0BFAF /* FirstViewController.swift */; };
-		88920D721BD03EDF00A0BFAF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88920D711BD03EDF00A0BFAF /* SecondViewController.swift */; };
+		88920D701BD03EDF00A0BFAF /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88920D6F1BD03EDF00A0BFAF /* DashboardViewController.swift */; };
+		88920D721BD03EDF00A0BFAF /* DiningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88920D711BD03EDF00A0BFAF /* DiningViewController.swift */; };
 		88920D751BD03EDF00A0BFAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88920D731BD03EDF00A0BFAF /* Main.storyboard */; };
 		88920D771BD03EDF00A0BFAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88920D761BD03EDF00A0BFAF /* Assets.xcassets */; };
 		88920D7A1BD03EDF00A0BFAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88920D781BD03EDF00A0BFAF /* LaunchScreen.storyboard */; };
 		88920D851BD03EDF00A0BFAF /* FHU_DashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88920D841BD03EDF00A0BFAF /* FHU_DashboardTests.swift */; };
+		88F476DC1BD9A5A10029BF4C /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F476DB1BD9A5A10029BF4C /* PreferencesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,12 +37,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		880C802C1BD8D57300FBCF88 /* SocialClubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialClubViewController.swift; sourceTree = "<group>"; };
+		880C802E1BD8D5CB00FBCF88 /* SportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsViewController.swift; sourceTree = "<group>"; };
 		88355CB71BD6CE1E00704999 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		88355CB91BD6D73500704999 /* Club.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
+		883E1ECD1BD9C44C00A3E0DF /* SportsTeam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsTeam.swift; sourceTree = "<group>"; };
+		883E1ECF1BD9EB9A00A3E0DF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		883E1ED51BD9F37800A3E0DF /* ClubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClubViewController.swift; path = ../ClubViewController.swift; sourceTree = "<group>"; };
+		883E1ED71BD9F38500A3E0DF /* ClassesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassesViewController.swift; sourceTree = "<group>"; };
+		883E1ED91BD9F3E600A3E0DF /* AnnouncementsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementsViewController.swift; sourceTree = "<group>"; };
 		88920D6A1BD03EDE00A0BFAF /* FHU_Dashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FHU_Dashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88920D6D1BD03EDE00A0BFAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88920D6F1BD03EDF00A0BFAF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		88920D711BD03EDF00A0BFAF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		88920D6F1BD03EDF00A0BFAF /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		88920D711BD03EDF00A0BFAF /* DiningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningViewController.swift; sourceTree = "<group>"; };
 		88920D741BD03EDF00A0BFAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88920D761BD03EDF00A0BFAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88920D791BD03EDF00A0BFAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,6 +57,7 @@
 		88920D801BD03EDF00A0BFAF /* FHU_DashboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FHU_DashboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88920D841BD03EDF00A0BFAF /* FHU_DashboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHU_DashboardTests.swift; sourceTree = "<group>"; };
 		88920D861BD03EDF00A0BFAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F476DB1BD9A5A10029BF4C /* PreferencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +99,20 @@
 		88920D6C1BD03EDE00A0BFAF /* FHU_Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				883E1ED51BD9F37800A3E0DF /* ClubViewController.swift */,
 				88920D6D1BD03EDE00A0BFAF /* AppDelegate.swift */,
-				88920D6F1BD03EDF00A0BFAF /* FirstViewController.swift */,
+				88920D6F1BD03EDF00A0BFAF /* DashboardViewController.swift */,
+				880C802C1BD8D57300FBCF88 /* SocialClubViewController.swift */,
+				880C802E1BD8D5CB00FBCF88 /* SportsViewController.swift */,
 				88355CB71BD6CE1E00704999 /* Student.swift */,
 				88355CB91BD6D73500704999 /* Club.swift */,
-				88920D711BD03EDF00A0BFAF /* SecondViewController.swift */,
+				883E1ECD1BD9C44C00A3E0DF /* SportsTeam.swift */,
+				88920D711BD03EDF00A0BFAF /* DiningViewController.swift */,
 				88920D731BD03EDF00A0BFAF /* Main.storyboard */,
+				883E1ED91BD9F3E600A3E0DF /* AnnouncementsViewController.swift */,
+				883E1ED71BD9F38500A3E0DF /* ClassesViewController.swift */,
+				883E1ECF1BD9EB9A00A3E0DF /* LoginViewController.swift */,
+				88F476DB1BD9A5A10029BF4C /* PreferencesViewController.swift */,
 				88920D761BD03EDF00A0BFAF /* Assets.xcassets */,
 				88920D781BD03EDF00A0BFAF /* LaunchScreen.storyboard */,
 				88920D7B1BD03EDF00A0BFAF /* Info.plist */,
@@ -207,10 +231,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88920D721BD03EDF00A0BFAF /* SecondViewController.swift in Sources */,
+				88920D721BD03EDF00A0BFAF /* DiningViewController.swift in Sources */,
 				88920D6E1BD03EDF00A0BFAF /* AppDelegate.swift in Sources */,
 				88355CBA1BD6D73500704999 /* Club.swift in Sources */,
-				88920D701BD03EDF00A0BFAF /* FirstViewController.swift in Sources */,
+				883E1ECE1BD9C44C00A3E0DF /* SportsTeam.swift in Sources */,
+				883E1ED61BD9F37800A3E0DF /* ClubViewController.swift in Sources */,
+				88F476DC1BD9A5A10029BF4C /* PreferencesViewController.swift in Sources */,
+				880C802D1BD8D57300FBCF88 /* SocialClubViewController.swift in Sources */,
+				883E1ED81BD9F38500A3E0DF /* ClassesViewController.swift in Sources */,
+				88920D701BD03EDF00A0BFAF /* DashboardViewController.swift in Sources */,
+				883E1EDA1BD9F3E600A3E0DF /* AnnouncementsViewController.swift in Sources */,
+				880C802F1BD8D5CB00FBCF88 /* SportsViewController.swift in Sources */,
+				883E1ED01BD9EB9A00A3E0DF /* LoginViewController.swift in Sources */,
 				88355CB81BD6CE1E00704999 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,16 +10,20 @@ import Foundation
 
 class Student {
     var id: Int
-    var name: String
+    var firstName: String
+    var lastName: String
     var classification: String
-    // var club: Club() - To add
+    var club: Club
     var classes: [String]
-    var sportsTeams: [String]
+    var sportsTeams: [SportsTeam]
     
-    init(id: Int, name: String, classification: String, classes: [String]) {
+    init(id: Int, firstName: String, lastName: String, classification: String, classes: [String], club: Club = Club(name: "None"), sportsTeams: [SportsTeam]) {
         self.id = id
-        self.name = name
+        self.firstName = firstName
+        self.lastName = lastName
         self.classification = classification
         self.classes = classes
+        self.club = club
+        self.sportsTeams = sportsTeams
     }
 }

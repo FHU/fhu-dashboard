@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  DashboardViewController.swift
 //  FHU_Dashboard
 //
 //  Created by Jesse Lloyd on 10/15/15.
@@ -8,8 +8,8 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
-
+class DashboardViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
